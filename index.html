@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ak notes app</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1E1E1E;
+            --text-primary: #E0E0E0;
+            --text-secondary: #A0A0A0;
+            --accent-color: #BB86FC;
+            --border-color: #333333;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            max-width: 800px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 40px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Meta Info Box */
+        .meta-info {
+            background-color: #252525;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #777;
+            margin-bottom: 4px;
+        }
+
+        .meta-value {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background-color: rgba(187, 134, 252, 0.1);
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            border-radius: 0 4px 4px 0;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            .meta-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p style="text-align: center; color: #888;">Transparency and security for your personal notes.</p>
+        </header>
+
+        <!-- App Meta Info -->
+        <div class="meta-info">
+            <div class="meta-item">
+                <span class="meta-label">App Name</span>
+                <span class="meta-value">Ak notes app</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Developer</span>
+                <span class="meta-value">ankit sahu</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Package Name</span>
+                <span class="meta-value" style="word-break: break-all;">com.kark.simplequicknotes</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Last Updated</span>
+                <span class="meta-value">14 December 2025</span>
+            </div>
+        </div>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>
+                Welcome to <strong>Ak notes app</strong>. We are committed to respecting the privacy of our users. 
+                This Privacy Policy explains how our application functions and assures you that your personal data remains private.
+            </p>
+            <p>
+                This app is designed to allow users to create, edit, and view their personal notes efficiently. 
+                It functions without requiring any user registration, and we do not collect personal information.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Data Collection & Usage</h2>
+            <div class="highlight-box">
+                <strong>Key Privacy Point:</strong> We do NOT collect, store, or share your personal data.
+            </div>
+            <p>
+                Our application is designed with privacy as a priority. We explicitly declare that we do not collect any of the following information:
+            </p>
+            <ul>
+                <li><strong>Names, Emails, or Phone Numbers:</strong> We do not ask for your identity.</li>
+                <li><strong>Account Details:</strong> There is no sign-up or login system.</li>
+                <li><strong>Contact Lists:</strong> We do not access your address book.</li>
+                <li><strong>Media & Files:</strong> We do not access your photos or files (other than the app's own data).</li>
+                <li><strong>Location Data:</strong> We do not track your precise location, address, or GPS coordinates.</li>
+                <li><strong>Device Identifiers:</strong> We do not collect IP addresses or unique device IDs for tracking purposes.</li>
+            </ul>
+            <p>
+                <strong>Non-Personal Statistics:</strong><br>
+                If the app ever generates internal statistics (such as a total count of notes created or generic usage metrics), these are strictly <strong>non-personal</strong>. 
+                This data cannot identify any individual user. Such data is visible only to the developer (admin) and is used exclusively for the technical improvement of the app's quality and performance.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Permissions & Internet Usage</h2>
+            <p>
+                <strong>Internet Connection:</strong><br>
+                The app uses your device's internet connection solely for essential functions, such as syncing your notes or loading necessary app resources. 
+                During this process, no personal data is transmitted to the developer, and no user activity is tracked.
+            </p>
+            <p>
+                <strong>App Permissions:</strong><br>
+                To protect your privacy, the app requires minimal permissions to function. We <strong>DO NOT</strong> request access to sensitive permissions such as:
+            </p>
+            <ul>
+                <li>Camera or Microphone</li>
+                <li>Contacts</li>
+                <li>Location Services (GPS)</li>
+                <li>External Storage (reading personal files/gallery)</li>
+                <li>SMS or Call Logs</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Advertisements & Third-Party Services</h2>
+            <p>
+                We believe in a clean, distraction-free user experience.
+            </p>
+            <ul>
+                <li><strong>100% Ad-Free:</strong> There are no banner ads, interstitial ads, or rewarded video ads in this application.</li>
+                <li><strong>No Third-Party SDKs:</strong> We do not integrate with third-party advertising networks, social media login SDKs, or external analytics services.</li>
+                <li><strong>No Tracking:</strong> There is no profiling, cross-app tracking, or cross-site tracking of our users.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Children’s Privacy / Age Limitation</h2>
+            <p>
+                <strong>Ak notes app</strong> does not contain harmful, explicit, or inappropriate content and is safe for general audiences.
+            </p>
+            <p>
+                However, the app is intended for use by individuals aged <strong>13 and above</strong>. 
+                Since we do not collect any personal data (including age or date of birth), we do not knowingly hold information about children. 
+                While the app poses no privacy risk to younger users, we recommend parental guidance for any mobile application usage.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Changes to This Policy</h2>
+            <p>
+                We may update our Privacy Policy from time to time to reflect changes in our app's functionality or legal requirements. 
+                Whenever a change is made, the <strong>"Last Updated"</strong> date at the top of this page will be revised.
+            </p>
+            <p>
+                We encourage you to review this page periodically to stay informed about how we are protecting your information.
+            </p>
+        </section>
+
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>
+                If you have any questions or suggestions about our Privacy Policy, or if you require support regarding the app, please do not hesitate to contact the developer.
+            </p>
+            <p style="margin-top: 20px;">
+                <strong>Email:</strong> <a href="mailto:durgeshshort2@gmail.com">durgeshshort2@gmail.com</a>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 ankit sahu. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
